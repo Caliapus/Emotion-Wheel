@@ -17,7 +17,7 @@ If PHP is installed, a csv file should be saved.
 
 # To do
 - write a proper README.md
-- make it more presentable
+- make the interface more presentable
 - limit the number of emotions to be submited
 - change the mechanics to make it nicer
   
