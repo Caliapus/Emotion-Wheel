@@ -15,7 +15,7 @@ Clone the repository to your local machine or to your web server.
 Open index.html in a web browser to start exploring emotions.
 If PHP is installed, a csv file should be saved. 
 
-# To do
+# Work in progress
 - write a proper README.md
 - make the interface more presentable
 - limit the number of emotions to be submited
