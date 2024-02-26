@@ -6,11 +6,10 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     initCoreEmotions();
-    
-    
+  
+   
     document.getElementById('submitButton').addEventListener('click', submitSelections); // Event listener for the submit button
-    document.getElementById('cancelButton').addEventListener('click', initCoreEmotions); // Re-initialize with core emotions for new selection
-    document.getElementById('backButton').addEventListener('click', handleBackNavigation);  // Event listener for the submit button
+
 
 });
 
@@ -131,6 +130,7 @@ function deleteFeeling(feelingText) {
 
 // Function to handle submit button click, displaying all selections
 function submitSelections() {
+    const outputBox = document.getElementById('outputBox');
     let formData = new FormData();
     formData.append('date', new Date().toISOString().slice(0,10)); // Today's date in YYYY-MM-DD format
     formData.append('feelings', JSON.stringify(all_feelings)); // Convert array to JSON string
@@ -139,36 +139,20 @@ function submitSelections() {
         fetch('saveFeelings.php', { // Assuming a PHP server-side script. Adjust for your actual server-side solution
             method: 'POST',
             body: formData
-        })
+        }
+        )
         .then(response => response.text())
         .then(result => {
             alert('Feelings saved successfully!');
+            outputBox.innerHTML = ''
         })
         .catch(error => {
             console.error('Error saving feelings:', error);
         });
+
     }
 }
 
-function handleBackNavigation() {
-    if (currentState === 'preciseFeelings') {
-        //back to feelings screen
-        loadFeelings(emotion)
-    } else if (currentState === 'feelings') {
-        // go back to emotions screen
-        initCoreEmotions(); // Assuming this resets to the initial state
-    }
-    // Additional logic to handle UI changes, like hiding the back button when on the main screen
-}
-
-function updateBackButtonVisibility() {
-  const backButton = document.getElementById('backButton');
-  if (currentState === 'feelings' || currentState === 'preciseFeelings') {
-    backButton.style.display = 'block'; // Show the button
-  } else {
-    backButton.style.display = 'none'; // Hide the button
-  }
-}
 
 
 
