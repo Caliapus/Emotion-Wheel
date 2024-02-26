@@ -1,4 +1,4 @@
-# Emotion-Wheel
+# Emotion List
 A webapp meant to trace and to monitor the feelings we're feeling daily
 
 # What is this? 
