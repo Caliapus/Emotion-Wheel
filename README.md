@@ -1,8 +1,8 @@
-# Emotion List
+# Emotions List
 A webapp meant to trace and to monitor the feelings we're feeling daily
 
 # What is this? 
-Emotion Wheel is an interactive web application that allows  to daily monitor the emotions. Users can navigate from a core emotion to its associated feelings and precise feelings, providing a way to understand, categorize and monitor their emotional experiences. The list of the emotions are from the wheel of emotions
+Emotions List is an interactive web application that allows  to daily monitor the emotions. Users can navigate from a core emotion to its associated feelings and precise feelings, providing a way to understand, categorize and monitor their emotional experiences. The list of the emotions are from the wheel of emotions
 ![wheel of emotions](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_Feeling_Wheel.png/479px-The_Feeling_Wheel.png)
 
 # How it works 
