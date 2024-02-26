@@ -3,7 +3,7 @@ A webapp meant to trace and to monitor the feelings we're feeling daily
 
 # What is this? 
 Emotions List is an interactive web application that allows  to daily monitor the emotions. Users can navigate from a core emotion to its associated feelings and precise feelings, providing a way to understand, categorize and monitor their emotional experiences. The list of the emotions are from the wheel of emotions
-![wheel of emotions](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_Feeling_Wheel.png/479px-The_Feeling_Wheel.png)
+![wheel of emotions](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Emotions_wheel.png/484px-Emotions_wheel.png)
 
 # How it works 
 The classification of the emotions is kept in the emotion-data.js file. 
