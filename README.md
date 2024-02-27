@@ -19,13 +19,13 @@ The classification of the emotions, taken directly from the wheel of emotions is
 2. Clone the repository to your local machine or to your web server. Open index.html in a web browser to start exploring emotions.
 When the submit button is pressed, if PHP is (correctly) installed, a **feelings.csv** file should be saved . 
 
-# Work in progress
-- find a way to represent the saved feelings 
-- write a proper README.md
-- make the interface more presentable
-- limit the number of emotions to be submited
-- change the mechanics to make it nicer
-- add the hour to the submitted feeling(s) 
+#  :construction: Work in progress
+🔲 find a way to represent the saved feelings 
+🔲 write a proper README.md
+🔲 make the interface more presentable
+🔲 limit the number of emotions to be submited
+🔲 change the mechanics to make it nicer
+🔲 add the hour to the submitted feeling(s) 
 
 # Screenshots  
 ![Screenshot](/Screenshots/Screenshot_general.png)
