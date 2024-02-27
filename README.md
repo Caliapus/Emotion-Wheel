@@ -20,11 +20,18 @@ The classification of the emotions, taken directly from the wheel of emotions is
 When the submit button is pressed, if PHP is (correctly) installed, a **feelings.csv** file should be saved . 
 
 #  :construction: Work in progress
+🔲 build a demo site
+
 🔲 find a way to represent the saved feelings 
+
 🔲 write a proper README.md
+
 🔲 make the interface more presentable
+
 🔲 limit the number of emotions to be submited
+
 🔲 change the mechanics to make it nicer
+
 🔲 add the hour to the submitted feeling(s) 
 
 # Screenshots  
