@@ -1,7 +1,7 @@
 # Emotions List
 > A webapp meant to trace and to monitor the emotions we're experiencing daily.
 
-If you're like me, andf like many others, you suck at identifying and expressing what you're feeling exactly. And that leaves room to interpretations and labeling. To tacke a small part of this problem, **Emotions List** is an interactive web application that allows to daily monitor the emotions. You can navigate from a core emotion to its associated feelings and precise feelings, providing a way to understand, categorize and monitor your emotional experiences. The structure is taken from this wheel of emotions:
+If you're like me, and like many others, you suck at identifying and expressing what you're feeling exactly. And that leaves room to interpretations and labeling. To tacke a small part of this problem, **Emotions List** is an interactive web application that allows to daily monitor the emotions. You can navigate from a core emotion to its associated feelings and precise feelings, providing a way to understand, categorize and monitor your emotional experiences. The structure is taken from this wheel of emotions:
 
 ![wheel of emotions](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Emotions_wheel.png/484px-Emotions_wheel.png)
 
