@@ -12,7 +12,7 @@ Each time the submit button is pressed, a line is added in feelings .csv with th
  
  :construction: Demo site
  
- :construction: Screenshots
+![Screenshot](/Screenshots/Screenshot_general.png)
 
 The classification of the emotions, taken directly from the wheel of emotions is kept in the **emotion-data.js** file. 
 
