@@ -12,8 +12,6 @@ Each time the submit button is pressed, a line is added in feelings .csv with th
  
  :construction: Demo site
  
-![Screenshot](/Screenshots/Screenshot_general.png)
-
 The classification of the emotions, taken directly from the wheel of emotions is kept in the **emotion-data.js** file. 
 
 # How can I use it
@@ -27,4 +25,6 @@ When the submit button is pressed, if PHP is (correctly) installed, a **feelings
 - limit the number of emotions to be submited
 - change the mechanics to make it nicer
 - add the hour to the submitted feeling(s) 
-  
+
+# Screenshots  
+![Screenshot](/Screenshots/Screenshot_general.png)
