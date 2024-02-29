@@ -2,7 +2,7 @@ const emotionsData = {
   "Happy": {
     color: "#ffff66",
     feelings: {
-      "Optimistic": ["Inspired", "Open"],
+      "Optimistic": ["Inspired", "Hopeful"],
       "Trusting": ["Intimate", "Sensitive"],
       "Peaceful": ["Thankful", "Loving"],
       "Powerful": ["Creative", "Courageous"],
@@ -10,8 +10,7 @@ const emotionsData = {
       "Proud": ["Successful", "Confident"],
       "Interested": ["Inquisitive", "Curious"],
       "Content": ["Free", "Joyful"],
-      "Playful": ["Aroused", "Cheeky"],
-      "Excited": ["Energetic", "Eager"]
+      "Playful": ["Aroused", "Cheeky"]
     }
   },
     "Surprised": {
@@ -68,7 +67,7 @@ const emotionsData = {
   "Sad": {
     color: "#6699cc",
     feelings: {
-      "Bored": ["Indifferent", "Apathetic"],
+      "Vulnerable": ["Victimised", "Fragile"],
       "Lonely": ["Isolated", "Abandoned"],
       "Depressed": ["Inferior", "Empty"],
       "Despair": ["Grief", "Powerless"],
