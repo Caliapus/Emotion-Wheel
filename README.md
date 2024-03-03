@@ -12,12 +12,12 @@ To tackle a small part of this problem, **Emotions List** is an interactive web 
 You start by chosing your basic emotion, then choose the feeling closest to what you feel and finish by picking one of the two the precise feelings indicated. You can have multiple emotions in the same time. It's ok.   
 Each time the submit button is pressed, a line is added in feelings .csv with the date and the selected feelings. 
  
-[Demo site](caliap.ro/wheel/)
- 
+[Demo site](https://wheel.caliap.ro)
+  
 The classification of the emotions, taken directly from the wheel of emotions is kept in the **emotion-data.js** file.
 
 # How can I use it
-1. Check out the [Demo site](caliap.ro/wheel/) 
+1. Check out the [Demo site](https://wheel.caliap.ro) 
 2. Clone the repository to your local machine or to your web server. Open index.html in a web browser to start exploring emotions.
 When the submit button is pressed, if PHP is (correctly) installed, a **feelings.csv** file should be saved . 
 
