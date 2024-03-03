@@ -1,7 +1,9 @@
 # Emotions List
 > A webapp meant to trace and to monitor the emotions we're experiencing daily.
 
-If you're like me, and like many others, you suck at identifying and expressing what you're feeling exactly. And that leaves room to interpretations and labeling. To tackle a small part of this problem, **Emotions List** is an interactive web application that allows to daily monitor the emotions. You can navigate from a core emotion to its associated feelings and precise feelings, providing a way to understand, categorize and monitor your emotional experiences. The structure is taken from this wheel of emotions:
+If you're like me, and like many others, you suck at identifying and expressing what you're feeling exactly. And that leaves room to interpretations and labeling. 
+
+To tackle a small part of this problem, **Emotions List** is an interactive web application that allows to identify and daily monitor your emotions. You can navigate from a core emotion to its associated feelings and the precise feelings, finding a way to understand, categorize and monitor your emotional experiences. The structure is taken from this wheel of emotions:
 
 ![wheel of emotions](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Emotions_wheel.png/484px-Emotions_wheel.png)
 
@@ -12,7 +14,7 @@ Each time the submit button is pressed, a line is added in feelings .csv with th
  
 [Demo site](caliap.ro/wheel/)
  
-The classification of the emotions, taken directly from the wheel of emotions is kept in the **emotion-data.js** file. 
+The classification of the emotions, taken directly from the wheel of emotions is kept in the **emotion-data.js** file.
 
 # How can I use it
 1. Check out the [Demo site](caliap.ro/wheel/) 
@@ -30,7 +32,9 @@ When the submit button is pressed, if PHP is (correctly) installed, a **feelings
 
 🔲 limit the number of emotions to be submited
 
-🔲 change the mechanics to make it nicer
+🔲 Integrate translations 
+
+✔️ change the mechanics to make it nicer
 
 🔲 add the hour to the submitted feeling(s) 
 
